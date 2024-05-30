@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T13:35:28.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="E2cASiFQqTGLihyVQ8IN" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T13:38:52.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="M-mKyYCnF3tgwHw2vur2" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,9 +23,6 @@
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BO7G75kS8NK7s-ADxCLs-0" value="+realizarReservacion(): void&lt;div&gt;+cancelarReservacion(): void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="26" width="170" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="203" as="sourcePoint" />
@@ -42,6 +39,14 @@
             <mxPoint x="210" y="373" as="sourcePoint" />
             <mxPoint x="310" y="271" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BO7G75kS8NK7s-ADxCLs-4" value="&lt;&lt;interface&gt;&gt;&#xa;GestionReservaciones" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="160" width="170" height="90" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO7G75kS8NK7s-ADxCLs-5" value="+realizarReservacion(): void&lt;div&gt;+cancelarReservacion(): void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BO7G75kS8NK7s-ADxCLs-4">
+          <mxGeometry y="40" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
